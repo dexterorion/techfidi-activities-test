@@ -1,16 +1,16 @@
-Techifidi test case
+## Techifidi test case
 
 - This project aims to show some habilities for a full-stack position
 
-Pre-requisites
+### Pre-requisites
 
 - Node (I am using v12.18.1)
 - NPM (I am using 6.14.5)
 - MySQL (I am using 8.0.2)
 
-UI
+### UI
 
-    - First of all, navigate to the directory `ui` and run `npm install`
+    First of all, navigate to the directory `ui` and run `npm install`
 
     Serve 
         - To start the project, run `npm run serve`
@@ -19,7 +19,7 @@ UI
     Test
         - To test the project, run `npm test`
 
-API
+### API
 
     - First of all, navigate to the directory `api` and run `npm install`
     - Set the right connections config to connect to MySQL (for `test` and `development` environments)
@@ -34,5 +34,5 @@ API
     Test
         - To test the project, run `npm test`
 
-OBS:
+### OBS
     - Sometimes, jest just doesn't install properly, so if some error happens, just install globally with `npm install -g jest`
